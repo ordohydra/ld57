@@ -43,6 +43,15 @@ public class OxygenManager : MonoBehaviour
         currentOxygen = Mathf.Min(currentOxygen + amount, maxOxygen);
     }
 
+    public void DepleteOxygen(float amount)
+    {
+        currentOxygen = Mathf.Max(currentOxygen - amount, 0);
+        if (currentOxygen <= 0)
+        {
+            TriggerGameOver();
+        }
+    }
+
      void TriggerGameOver()
     {
         isGameOver = true;

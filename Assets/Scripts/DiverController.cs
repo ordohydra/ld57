@@ -4,6 +4,8 @@ public class DiverController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float verticalSpeed = 4f;
+
+    public OxygenManager oxygenManager; // Reference to the OxygenManager script
     private Rigidbody2D rb;
 
     void Start()
@@ -22,6 +24,14 @@ public class DiverController : MonoBehaviour
         {
             float angle = Mathf.Atan2(velocity.y, velocity.x) * Mathf.Rad2Deg;
             rb.rotation = angle;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            oxygenManager.DepleteOxygen(10f); // Deplete oxygen when colliding with an enemy
         }
     }
 }
