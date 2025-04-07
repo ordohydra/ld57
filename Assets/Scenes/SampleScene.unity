@@ -748,7 +748,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 71951427}
   speed: 1
-  stopDistance: 1
+  stopDistance: 0.5
+  startChaseDistance: 5
 --- !u!1001 &590804029
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1628,8 +1629,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 364, y: -64}
-  m_SizeDelta: {x: 640, y: 44}
+  m_AnchoredPosition: {x: 684, y: -64}
+  m_SizeDelta: {x: 1280, y: 88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336484553
 MonoBehaviour:
@@ -45025,6 +45026,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 71951427}
+    - target: {fileID: 4674109405213274373, guid: a0bd5ca5015d141259d4e502a5c8b61b, type: 3}
+      propertyPath: stopDistance
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
