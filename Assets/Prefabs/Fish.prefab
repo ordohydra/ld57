@@ -105,6 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGoingLeft: 1
   speed: 2
+  oxygenManager: {fileID: 0}
 --- !u!61 &133699861965607058
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -177,7 +178,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!95 &3152158417786222934
 Animator:
   serializedVersion: 7
