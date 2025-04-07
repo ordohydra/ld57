@@ -2,15 +2,22 @@ using UnityEngine;
 
 public class MurmaidChase : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public Transform player;         // Assign the player Transform in the Inspector
+    public float speed = 3f;         // Movement speed
+    public float stopDistance = 1f;  // How close the enemy gets before stopping
 
-    // Update is called once per frame
+    public float startChaseDistance = 6f; // Distance at which the enemy starts chasing
+
     void Update()
     {
-        
+        if (player == null) return;
+
+        float distance = Vector3.Distance(transform.position, player.position);
+
+        if (distance > stopDistance && distance < startChaseDistance)
+        {
+            Vector3 direction = (player.position - transform.position).normalized;
+            transform.position += direction * speed * Time.deltaTime;
+        }
     }
 }
