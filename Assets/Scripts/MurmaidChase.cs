@@ -8,6 +8,16 @@ public class MurmaidChase : MonoBehaviour
 
     public float startChaseDistance = 6f; // Distance at which the enemy starts chasing
 
+    public OxygenManager oxygenManager; // Reference to the OxygenManager script
+
+    private Rigidbody2D rb;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        rb.linearVelocity = new Vector2(-speed, rb.linearVelocity.y);
+    }
+
     void Update()
     {
         if (player == null) return;
@@ -18,6 +28,15 @@ public class MurmaidChase : MonoBehaviour
         {
             Vector3 direction = (player.position - transform.position).normalized;
             transform.position += direction * speed * Time.deltaTime;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            oxygenManager.DepleteOxygen(30f); // Deplete oxygen when colliding with an enemy
+            return;
         }
     }
 }
