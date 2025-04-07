@@ -17,18 +17,6 @@ public class EnemyPatrol : MonoBehaviour
         rb.linearVelocity = new Vector2(-speed, rb.linearVelocity.y);
     }
 
-    void FixedUpdate()
-    {
-        // if (isGoingLeft)
-        // {
-        //     transform.position += new Vector3(-1.0f * speed, 0.0f, 0.0f);
-        // }
-        // else
-        // {
-        //     transform.position += new Vector3(speed, 0.0f, 0.0f);
-        // }
-    }
-
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -38,6 +26,9 @@ public class EnemyPatrol : MonoBehaviour
         }
 
         isGoingLeft = !isGoingLeft; // Reverse direction on collision
+        Vector3 scale = transform.localScale;
+        scale = new Vector3(-scale.x, scale.y, scale.z);
+        transform.localScale = scale;
 
         if (isGoingLeft) {
             rb.linearVelocity = new Vector2(-speed, rb.linearVelocity.y);
