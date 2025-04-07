@@ -4,7 +4,7 @@ public class OxygenManager : MonoBehaviour
 {
     public float maxOxygen = 100f;
     public float currentOxygen;
-    public float depletionRate = 5f;
+    public float depletionRate = 1f;
     public float regenerationRate = 10f;
 
     public GameObject gameOverPanel;
