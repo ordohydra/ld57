@@ -9,6 +9,8 @@ public class EnemyPatrol : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    public OxygenManager oxygenManager; // Reference to the OxygenManager script
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -29,7 +31,12 @@ public class EnemyPatrol : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collision detected with: " + collision.gameObject.name);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            oxygenManager.DepleteOxygen(20f); // Deplete oxygen when colliding with an enemy
+            return;
+        }
+
         isGoingLeft = !isGoingLeft; // Reverse direction on collision
 
         if (isGoingLeft) {

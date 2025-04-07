@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 47404993039b9d648ababb1537e16716
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8291968260264743534
+    second: pearl2_0
+  - first:
+      213: 7384639395427983255
+    second: pearl2_1
+  - first:
+      213: 2519127681615304482
+    second: pearl2_2
+  - first:
+      213: -2789789195008765793
+    second: pearl2_3
+  - first:
+      213: 2828087244861804730
+    second: pearl2_4
+  - first:
+      213: 1749635658410007641
+    second: pearl2_5
+  - first:
+      213: -2687403303515013934
+    second: pearl2_6
+  - first:
+      213: -8135693322300596200
+    second: pearl2_7
+  - first:
+      213: 2853659266006776177
+    second: pearl2_8
+  - first:
+      213: 4630295273991936287
+    second: pearl2_9
+  - first:
+      213: 8876174288334285179
+    second: pearl2_10
+  - first:
+      213: 1496514059744856401
+    second: pearl2_11
+  - first:
+      213: -314454665491949292
+    second: pearl2_12
+  - first:
+      213: 6298545206671344425
+    second: pearl2_13
+  - first:
+      213: -7922662098877846581
+    second: pearl2_14
+  - first:
+      213: -1451375534140631114
+    second: pearl2_15
+  - first:
+      213: 8014692319006830168
+    second: pearl2_16
+  - first:
+      213: 7044579271513985803
+    second: pearl2_17
+  - first:
+      213: 9040203836640444322
+    second: pearl2_18
+  - first:
+      213: 6284296741496414703
+    second: pearl2_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pearl2_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 153
+        width: 1687
+        height: 1686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62d4e1333df21370800000000000000
+      internalID: 8291968260264743534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_1
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1774
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f17d697628b7660800000000000000
+      internalID: 7384639395427983255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_2
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1786
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227988e874db5f220800000000000000
+      internalID: 2519127681615304482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_3
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1786
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f909741128da849d0800000000000000
+      internalID: -2789789195008765793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_4
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1782
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab01dc78d526f3720800000000000000
+      internalID: 2828087244861804730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_5
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1137
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c92e18c54f74810800000000000000
+      internalID: 1749635658410007641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_6
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1160
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcb6c51fec64bad0800000000000000
+      internalID: -2687403303515013934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_7
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1108
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81061c23706381f80800000000000000
+      internalID: -8135693322300596200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_8
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1109
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179f55cabfb3a9720800000000000000
+      internalID: 2853659266006776177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1080
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f199573f40d124040800000000000000
+      internalID: 4630295273991936287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_10
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1058
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79ee9cbc718e2b70800000000000000
+      internalID: 8876174288334285179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1043
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1594874cb9fa4c410800000000000000
+      internalID: 1496514059744856401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_12
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1047
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4195365d525d2abf0800000000000000
+      internalID: -314454665491949292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 994
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923826d8e7de86750800000000000000
+      internalID: 6298545206671344425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_14
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 910
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb6fe01ccc0d0290800000000000000
+      internalID: -7922662098877846581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_15
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 179
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7dad334adabdbe0800000000000000
+      internalID: -1451375534140631114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_16
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 185
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e24725338e93f60800000000000000
+      internalID: 8014692319006830168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_17
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 182
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03dbae068f53c160800000000000000
+      internalID: 7044579271513985803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_18
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 180
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afb31c0e71457d70800000000000000
+      internalID: 9040203836640444322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pearl2_19
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 184
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1e90c379e463750800000000000000
+      internalID: 6284296741496414703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pearl2_0: 8291968260264743534
+      pearl2_1: 7384639395427983255
+      pearl2_10: 8876174288334285179
+      pearl2_11: 1496514059744856401
+      pearl2_12: -314454665491949292
+      pearl2_13: 6298545206671344425
+      pearl2_14: -7922662098877846581
+      pearl2_15: -1451375534140631114
+      pearl2_16: 8014692319006830168
+      pearl2_17: 7044579271513985803
+      pearl2_18: 9040203836640444322
+      pearl2_19: 6284296741496414703
+      pearl2_2: 2519127681615304482
+      pearl2_3: -2789789195008765793
+      pearl2_4: 2828087244861804730
+      pearl2_5: 1749635658410007641
+      pearl2_6: -2687403303515013934
+      pearl2_7: -8135693322300596200
+      pearl2_8: 2853659266006776177
+      pearl2_9: 4630295273991936287
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
